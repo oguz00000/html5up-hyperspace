@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $contact_info = $stmt->fetch();
 
     // Basit kimlik doğrulama (gerçek uygulamada veritabanından kontrol edin)
-    if ($username === $contact_info['name'] && $password === $contact_info['password']) {
+    if ($username === $contact_info['name'] && password_verify($password, $contact_info['password'])) {
         $_SESSION['admin_logged_in'] = true;
         $_SESSION['admin_username'] = $username;
         $_SESSION['admin_id'] = $contact_info['id'];
