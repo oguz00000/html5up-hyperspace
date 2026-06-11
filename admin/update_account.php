@@ -29,7 +29,7 @@ if (isset($_POST['update_account'])) {
         try {
             if (!empty($new_password)) {
                 $stmt = $pdo->prepare("UPDATE admin SET name = ?, email = ?, password = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?");
-                $stmt->execute([$username, $email, $new_password, $admin_id]);
+                $stmt->execute([$username, $email, password_hash($new_password, PASSWORD_DEFAULT), $admin_id]);
             } else {
                 $stmt = $pdo->prepare("UPDATE admin SET name = ?, email = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?");
                 $stmt->execute([$username, $email, $admin_id]);
