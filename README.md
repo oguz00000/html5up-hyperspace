@@ -26,7 +26,7 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 3. **Veritabanını Hazırlayın:**
  - phpMyAdmin'e girin.
- - yeni bir veritabanı oluşturmanıza gerek yok, direkt olarak sql kodu proje için gerekli herşeyi oluşturacaktır
+ - yeni bir veritabanı oluşturmanıza gerek yok, direkt olarak sql kodu proje için gerekli her şeyi oluşturacaktır.
 
 4. **Konfigürasyon:**
  - config.php dosyasını kendi veritabanı bilgilerinize göre güncelleyin.
