@@ -25,7 +25,7 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
  - .env dosyasını bir metin editörüyle açın ve veritabanı bilgilerinizi (DB_NAME, DB_USER, DB_PASS) kendi yerel ortamınıza göre güncelleyin.
 
 3. **Veritabanını Hazırlayın:**
- - phpMyAdmin'e yada kullandığınız veritabanı yönetim aracına girin.
+ - phpMyAdmin'e yada farklı bir veritabanı yönetim aracına (MySQL ile çalışabilmesi gerekiyor) girin.
  - yeni bir veritabanını manuel olarak oluşturmanıza gerek yok, direkt olarak sql koduyla proje için gerekli her şeyi oluşturacaktır.
 
 4. **Konfigürasyon:**
