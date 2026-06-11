@@ -31,4 +31,4 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
  - config.php dosyasını kendi veritabanı bilgilerinize göre güncelleyin.
 
 ## 👤 İletişim:
- - Sorularınız için bana GitHub Profilimden ulaşabilirsiniz.
+ - Sorularınız için bana [GitHub Profilimden](https://github.com/oguz00000) ulaşabilirsiniz.
