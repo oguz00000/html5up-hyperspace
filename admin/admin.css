@@ -1,0 +1,441 @@
+/* Admin Panel Genel Stilleri */
+
+/* Login Sayfası */
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-container h2 {
+    color: black;
+}
+
+/* Admin Header */
+.admin-header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.admin-header.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    color: #333;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #dc3545;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.logout-btn:hover {
+    background: #c82333;
+}
+
+/* Admin Container */
+.admin-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.admin-container.narrow {
+    max-width: 1000px;
+}
+
+.admin-container.wide {
+    max-width: 1400px;
+}
+
+/* Admin Grid */
+.admin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.admin-card {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.admin-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.admin-card h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.admin-card p {
+    color: black;
+}
+
+.admin-card a {
+    display: block;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s;
+    text-align: center;
+    margin: 10px auto 0;
+    width: fit-content;
+}
+
+.admin-card a:hover {
+    background: #0056b3;
+}
+
+.welcome-message {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form Stilleri */
+.form-container, .table-container {
+    background: #aeaeae;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-container h2, .table-container h2 {
+    color: black;
+}
+
+.table-container thead th {
+    background: #aeaeae;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea, .form-group select {
+    width: 100%;
+    color: black;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    color: #333 !important; 
+    opacity: 1 !important;
+    font-weight: 500;
+}
+
+/* Firefox gibi tarayıcılar için ek tanımlama */
+input:-moz-placeholder {
+    color: #333 !important;
+    opacity: 1 !important;
+}
+
+input::-moz-placeholder {
+    color: #333 !important;
+    opacity: 1 !important;
+}
+
+.form-group textarea {
+    height: 250px;
+    resize: vertical;
+}
+
+.form-group textarea.tall {
+    height: 120px;
+}
+
+.form-group button, .form-group .btn {
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    text-align: center;
+}
+
+.social-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.social-group .form-group {
+    margin-bottom: 0;
+}
+
+/* Buton Stilleri */
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity 0.2s;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: white;
+}
+
+.btn-success {
+    background: #28a745;
+    color: white;
+}
+
+.btn-danger {
+    background: #dc3545;
+    color: white;
+}
+
+.btn-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+.btn-sm {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.btn.full-width {
+    width: 100%;
+    padding: 10px;
+}
+
+.btn.login {
+    background: #4CAF50;
+}
+
+.btn.login:hover {
+    background: #45a049;
+}
+
+/* Mesaj Bildirimleri */
+.message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.message.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.message.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.error {
+    color: red;
+    margin-bottom: 15px;
+}
+
+/* Tablo Stilleri */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+    vertical-align: middle;
+}
+
+th {
+    background: #f8f9fa;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+    padding: 12px;
+    line-height: 1.4;
+}
+
+td {
+    vertical-align: middle;
+    height: 50px;
+    line-height: 1.4;
+}
+
+/* Table row alignment */
+.table-container table tbody td {
+    text-align: center;
+}
+
+/* Image preview alignment */
+.table-container table tbody td:first-child {
+    text-align: center;
+}
+
+.image-preview {
+    max-width: 100px;
+    max-height: 60px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Title and description alignment */
+.table-container table tbody td:nth-child(2),
+.table-container table tbody td:nth-child(3),
+.table-container table tbody td:nth-child(4) {
+    text-align: center;
+}
+
+/* Actions column alignment */
+.actions {
+    white-space: nowrap;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.actions a {
+    margin: 0 3px;
+}
+
+.actions.narrow {
+    width: 100px;
+}
+
+.icon-preview {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.message-content {
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.message-preview {
+    cursor: pointer;
+    color: #007bff;
+}
+
+.message-preview:hover {
+    text-decoration: underline;
+}
+
+/* Modal Stilleri */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+/* İstatistik Kartları */
+.stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Bilgi Bölümü */
+.info-section {
+    background: #aeaeae;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.info-section h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.info-item {
+    margin-bottom: 10px;
+}
+
+.info-item strong {
+    display: inline-block;
+    width: 120px;
+}
