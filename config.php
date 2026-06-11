@@ -1,9 +1,11 @@
 <?php
 // Database credentials
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'template_db');
-define('DB_USER', 'root'); // Değiştirilmesi gereken örnek kullanıcı
-define('DB_PASS', '');     // Değiştirilmesi gereken örnek şifre
+$env = parse_ini_file('.env');
+
+define('DB_HOST', $env['DB_HOST']);
+define('DB_NAME', $env['DB_NAME']);
+define('DB_USER', $env['DB_USER']);
+define('DB_PASS', $env['DB_PASS']);
 
 try {
     $dsn = "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8mb4";
