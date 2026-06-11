@@ -17,7 +17,7 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 1. **Repoyu Klonlayın:**
    ```bash
-   git clone [https://github.com/oguz00000/html5up-hyperspace.git](https://github.com/oguz00000/html5up-hyperspace.git)
+   git clone https://github.com/oguz00000/html5up-hyperspace.git
 
 2. **Ortam Ayarlarını Yapın:**
  - Proje klasöründeki .env.example dosyasını kopyalayın ve adını .env olarak değiştirin.
