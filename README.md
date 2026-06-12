@@ -22,7 +22,7 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 2. **Ortam Ayarlarını Yapın:**
  - Proje klasöründeki .env.example dosyasını kopyalayın ve adını .env olarak değiştirin.
- - .env dosyasını bir metin editörüyle açın ve veritabanı bilgilerinizi (DB_NAME, DB_USER, DB_PASS) kendi yerel ortamınıza göre güncelleyin.
+ - .env dosyasını bir metin editörüyle açın ve veritabanı bilgilerinizi kendi yerel ortamınıza göre güncelleyin.
 
 3. **Veritabanını Hazırlayın:**
  - phpMyAdmin'e yada farklı bir veritabanı yönetim aracına (MySQL ile çalışabilmesi gerekiyor) girin.
@@ -31,7 +31,7 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 4. **Admin Paneli:**
  - Bu projede admin panelinin şifrelenmesinde hash algoritması kullanılmıştır.  
  - Varsayılan kullanıcı adı `admin`, şifre `admin` olarak belirlenmiştir.
- - **Güvenliğiniz için kurulumu yaptıktan sonra mutlaka şifrenizi değiştirin.**
+ - **Güvenliğiniz için kurulumu yaptıktan sonra mutlaka şifrenizi admin panelinden değiştirin.**
 
 ## 👤 İletişim:
  - Sorularınız için bana [GitHub Profilimden](https://github.com/oguz00000) ulaşabilirsiniz.
