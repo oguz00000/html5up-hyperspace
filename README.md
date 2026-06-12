@@ -33,8 +33,8 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 5. **Güvenlik Notu:**
  - Bu projede admin panelinin şifrelenmesinde hash algoritması kullanılmıştır.  
- - Varsayılan kullanıcı adı `admin`, admin şifresi `admin` olarak belirlenmiştir.
- - **Güvenliğiniz için kurulumu yaptıktan sonra mutlaka şifrenizi değiştirin.**
+ - Varsayılan kullanıcı adı `admin`, şifre `admin` olarak belirlenmiştir.
+ - <span style="color:red">**Güvenliğiniz için kurulumu yaptıktan sonra mutlaka şifrenizi değiştirin.**</span>
 
 ## 👤 İletişim:
  - Sorularınız için bana [GitHub Profilimden](https://github.com/oguz00000) ulaşabilirsiniz.
