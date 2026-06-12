@@ -29,7 +29,7 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
  - phpMyAdmin'e yada farklı bir veritabanı yönetim aracına (MySQL ile çalışabilmesi gerekiyor) girin.
  - Yeni bir veritabanını manuel olarak oluşturmanıza gerek yok, sadece template_db.sql dosyasının import edilmesiyle veritabanı içindeki tablolarıyla birlikte kurulacaktır.
 
-4. **Admin Şifresini değiştirin:**
+4. **Admin Paneline Giriş Yapın:**
  - Bu projede admin panelinin şifrelenmesinde hash algoritması kullanılmıştır.  
  - Varsayılan kullanıcı adı `admin`, şifre `admin` olarak belirlenmiştir.
  - **Güvenliğiniz için kurulumu yaptıktan sonra şifrenizi mutlaka admin paneli üzerinden değiştirin.**
