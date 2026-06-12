@@ -26,13 +26,15 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 3. **Veritabanını Hazırlayın:**
  - phpMyAdmin'e yada farklı bir veritabanı yönetim aracına (MySQL ile çalışabilmesi gerekiyor) girin.
- - yeni bir veritabanını manuel olarak oluşturmanıza gerek yok, direkt olarak sql koduyla proje için gerekli her şeyi oluşturacaktır.
+ - Yeni bir veritabanını manuel olarak oluşturmanıza gerek yok, direkt olarak template_db.sql dosyasını import edilmesiyle site için gerekli her şey kurulacaktır.
 
 4. **Konfigürasyon:**
  - config.php dosyasını kendi veritabanı bilgilerinize göre güncelleyin.
 
 5. **Güvenlik Notu:**
- - Bu projede admin girişi için `password_verify` fonksiyonu kullanılmaktadır. Veritabanınızda şifreleri "açık metin" (plain text) olarak tutmak yerine, PHP'nin `password_hash()` fonksiyonu ile şifrelenmiş (hash) hallerini saklamanız gerekmektedir. Admin şifrenizi ayarlarken bu standartı kullandığınızdan emin olun.
+ - Bu projede admin panelinin şifrelenmesinde hash algoritması kullanılmıştır.  
+ - Varsayılan kullanıcı adı `admin`, admin şifresi `admin` olarak belirlenmiştir.
+ - **Güvenliğiniz için kurulumu yaptıktan sonra mutlaka şifrenizi değiştirin.**
 
 ## 👤 İletişim:
  - Sorularınız için bana [GitHub Profilimden](https://github.com/oguz00000) ulaşabilirsiniz.
