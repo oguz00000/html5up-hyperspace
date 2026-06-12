@@ -2,7 +2,7 @@
 
 Bu proje, basit bir kişisel portfolyo projesidir.
 
-## 🚀 Özellikler
+## 🚀 Özellikler:
 - HTML5 ve CSS3 ile modern tasarım.
 - Duyarlı (Responsive) arayüz.
 - PHP ile dinamik içerik yönetimi.
@@ -12,7 +12,7 @@ Bu proje, basit bir kişisel portfolyo projesidir.
  - PHP
  - MySQL (phpMyAdmin)
 
-## 🛠 Kurulum
+## 🛠 Kurulum:
 Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 1. **Repoyu Klonlayın:**
@@ -30,6 +30,9 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 4. **Konfigürasyon:**
  - config.php dosyasını kendi veritabanı bilgilerinize göre güncelleyin.
+
+5. **Güvenlik Notu:**
+ - Bu projede admin girişi için `password_verify` fonksiyonu kullanılmaktadır. Veritabanınızda şifreleri "açık metin" (plain text) olarak tutmak yerine, PHP'nin `password_hash()` fonksiyonu ile şifrelenmiş (hash) hallerini saklamanız gerekmektedir. Admin şifrenizi ayarlarken bu standartı kullandığınızdan emin olun.
 
 ## 👤 İletişim:
  - Sorularınız için bana [GitHub Profilimden](https://github.com/oguz00000) ulaşabilirsiniz.
