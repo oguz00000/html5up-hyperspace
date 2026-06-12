@@ -8,7 +8,7 @@ Bu proje, basit bir kişisel portfolyo projesidir.
 - PHP ile dinamik içerik yönetimi.
 
 ## 📦 Teknolojiler:
- - HTML5 / CSS3 / JavaScript.
+ - HTML5 / CSS3 / JavaScript
  - PHP
  - MySQL (phpMyAdmin)
 
