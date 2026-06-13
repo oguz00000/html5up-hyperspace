@@ -44,7 +44,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `email`, `password`, `last_login`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'admin@websiteniz.com', '$2y$10$Ye90WfAhtldrVHYYfCXMMOmBT8dmLc74FCv1ferHg3atjrBXaqjqa', '2026-06-10 15:06:17', '2026-06-09 17:08:41', '2026-06-09 19:45:41');
+(1, 'admin', 'admin@websiteniz.com', '$2y$10$w/kp9ivzpipGfTbCNYXgyOTE3XpX/.MikpjQ67aPSrX/OD7oIZVC2', '2026-06-10 15:06:17', '2026-06-09 17:08:41', '2026-06-09 19:45:41');
 
 -- --------------------------------------------------------
 
